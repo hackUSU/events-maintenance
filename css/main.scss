@@ -102,6 +102,7 @@ body {
   padding: 75px 50px;
   text-align: center;
   font-size: 25px;
+  width: 100%;
   h1 {
     font-size: 30px;
     color: rgb(32, 66, 91);
@@ -109,6 +110,21 @@ body {
   }
   li {
     list-style-type: none;
+  }
+  .error-message{
+    position: absolute;
+    z-index: 3;
+    margin-left: 12%;
+    background-color: $white;
+    border: $logo-blue;
+    margin-top: 12%;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid $logo-blue;
+    box-shadow: $black 3px 3px 0 0;
+    span{
+      color: red;
+    }
   }
 }
 
